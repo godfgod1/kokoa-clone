@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to koko</title>    
+</head>
+<body>    
+    <!-- 상태바 -->
+    <div class="status-bar">
+        <span class="status-bar__column">
+            No Service 
+            <i class="fas fa-wifi"></i>
+        </span>
+        
+        <div class="status-bar__column"> 
+            <span>
+                08:50
+            </span>
+        </div>
+        <div class="status-bar__column">80% 
+        <i class="fas fa-battery-three-quarters fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+        </div>  
+        
+    </div>
+    <!-- 헤더 -->
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">
+            Welcome to koko
+        </h1>
+        <p class="welcome-header__text">
+            if you have a koko account, log in with you
+        </p>
+    </header>
+    <!-- 로그인폼 -->
+    <form id="login-form">
+        <input type="text" placeholder="Email or phone number">
+        <input type="password" placeholder="Password">
+        <input type="submit" value="Log In">
+        <a href="#">Find koko Account or Password</a>
+    </form>
+
+    <script src="https://kit.fontawesome.com/d2985199c2.js" crossorigin="anonymous"></script>
+</body>   
+</html>
